@@ -1,3 +1,4 @@
+//
 public with sharing class SlackOpportunityPublisher {
     
     private static final String slackURL = Dreamhouse_Settings__c.getOrgDefaults().Slack_Opportunity_Webhook_URL__c;
